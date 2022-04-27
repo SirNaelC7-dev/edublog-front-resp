@@ -11,14 +11,16 @@ import {
   MenuButton,
   MenuList,
   MenuItem,
-  MenuDivider,
   useDisclosure,
   useColorModeValue,
   Stack,
 } from '@chakra-ui/react';
-import { UserIcon, HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
+import { 
+  UserIcon, 
+  HamburgerIcon, 
+  CloseIcon } from '@chakra-ui/icons';
 
-const Links = ['Tutores', 'Publicações'];
+const Links = ['Tutores',];
 
 const NavLink = ({ children }, { children: ReactNode }) => (
   <Link
